@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星穹鐵道</title>
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            height: 200px;
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        #title {
+            color: yellow;
+        }
+
+        .character {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .character img {
+            max-width: 100px;
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="https://upload-os-bbs.hoyolab.com/upload/2023/02/13/1019313/83bae96a142d4fbb9777e176911d5efc_4644671795488121300.jpeg"
+            alt="Centered Image">
+    </div>
+    <h1 id="title">角色列表</h1>
+    <input type="text" id="searchInput" placeholder="輸入角色名稱">
+    <button onclick="search()">查詢</button>
+    <input type="text" id="searchInput1" placeholder="輸入屬性">
+    <button onclick="search2()">查詢</button>
+    <input type="text" id="searchInput2" placeholder="輸入命途">
+    <button onclick="search3()">查詢</button>
+    <div id="results"></div>
+    <script src="combine.js"></script>
+</body>
+
+</html>
