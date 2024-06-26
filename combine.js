@@ -76,7 +76,7 @@ const data = [
         "name": "流螢",
         "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/06/11/7b9020cf084a8592afa259673e9bdcf3_3168003334562893916.png",
         "display_field": {
-            "attr_level_1": "{\"dynamic\":{}}",
+            "attr_level_1": "{\"base_hp\":\"111\",\"base_atk\":\"105\",\"base_def\":\"71\",\"base_speed\":\"104\",\"dynamic\":{}}",
             "attr_level_80": "{\"base_hp\":\"814\",\"base_atk\":\"523\",\"base_def\":\"776\",\"base_speed\":\"109\",\"dynamic\":{}}"
         },
         "filter_values": {
